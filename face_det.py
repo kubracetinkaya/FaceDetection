@@ -2,8 +2,8 @@ import cv2
 import imageio
 
 #cascade yuklemesi yaptik. parametre olarak xml dosyalari verdik.
-face_cascade=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-eye_cascade=cv2.CascadeClassifier('haarcascade_eye.xml')
+face_cascade=cv2.CascadeClassifier('haarcascade-frontalface-default.xml')
+eye_cascade=cv2.CascadeClassifier('haarcascade-eye.xml')
 
 def detect(frame):
     gray=cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) #resmi siyah beyaza cevirdik
