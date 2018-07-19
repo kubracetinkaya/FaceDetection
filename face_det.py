@@ -1,3 +1,4 @@
+#Cok duzgun calisan bir algoritma degil.Gelistirilecek.
 import cv2
 import imageio
 
